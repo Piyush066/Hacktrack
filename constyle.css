@@ -1,0 +1,151 @@
+#experst{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+#experst .expert-box{
+    display: grid;
+grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
+grid-gap: 1rem;
+margin-top: 50px;
+}
+#experst .expert-box .profile{
+    background-color: #fafaf1;
+    padding: 30px 10px;
+}
+#experst .expert-box .profile .pro-links{
+    margin-top: 10px;
+}
+.pro-links i{
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100) ;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.pro-links i:hover{
+ background:rgb(21, 21, 100) ;
+ color: #fff;
+    border: 1px solid rgb(21, 21, 100) ;
+    cursor: pointer;
+}
+footer{
+    padding: 8vw;
+    background-color: #101c32;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 40px;
+}
+footer h3{
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px; 
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+footer li:hover{
+    color: rgb(241, 240, 245);
+}
+footer p{
+    color: #7b838a;
+}
+footer .subscribe{
+    margin-top: 20px;
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334F6C;
+    border: none;
+    color: #fff;
+}
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 15px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius:5px
+}
+footer .subscribe a.yellow{
+    color: #fff;
+    background: #FDC93B;
+    transition: 0.3s ease;
+}
+footer .subscribe a.yellow:hover{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright{
+color: #fff;
+}
+footer .copyright .pro-links{
+    margin-top: 10px;
+}
+footer .copyright .pro-link i{
+    background-color: #5f7185;
+    color: #fff;
+
+}
+footer .copyright .pro-link i{
+   background-color: #FDC93B;
+   color: #2c2c2c;
+}
+    
+    
+
+.top-link{
+    padding: 0 1.5rem;}
+.linking{
+    color: black;
+    text-decoration: none;
+}
+.col{
+    background-color: beige;
+    margin: 2rem;
+}
+.propic{
+    width: 10rem;
+    border-radius: 100%;
+
+}
+.row{
+    text-align: center;
+}
+.info{
+    padding: 5%;
+}
+.h1{
+    color: black;
+}
+
+
+.fo{
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("back1.jpg");
+       width: 100%;
+       height: 100vh;
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       padding-top: 40px;
+   }
